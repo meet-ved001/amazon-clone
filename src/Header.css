@@ -1,0 +1,75 @@
+.header {
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo {
+    width: 15%;
+    margin: 0 20px;
+    margin-top: 16px;
+    height: 23px;
+    width: 50px;
+    padding-bottom: 10px;
+    object-fit: contain;
+
+}
+
+.header__searchIcon {
+    background-color: #cd9842;
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+    /* position: absolute;  */
+    /* margin-left: 5rem; */
+    margin-right: 10px;
+
+}
+
+.header__searchInput {
+    height: 18px;
+    /* width: 75rem; */
+    width: 100%;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 2px; */
+}
+
+.header__link {
+    color: white;
+    text-decoration: none;
+}
+
+.header__option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__optionLineOne {
+    font-size: 12px;
+}
+
+.header__optionLineTwo {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.header__optionBasket {
+    display: flex;
+    align-items: center;
+    /* doing this will level the basket icon and the corresponding number */
+}
+
+.header__basketCount {
+    margin: 0px 10px;
+}
